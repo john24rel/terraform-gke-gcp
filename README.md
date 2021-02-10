@@ -1,6 +1,6 @@
 ```
-module "eks" {
-    source                      = "john24rel/gke/gcp"
+module "gcp" {
+    source                      = "john24rel/gcp/gke"
     credentials                 =  file("~/.google/credentials")
     cluster_name                = "my-gke"
     project_id                  = "project_id"
