@@ -5,5 +5,6 @@ variable "machine_type" {}
 variable "node_count" {}
 variable "location" {}
 variable "credentials" {}
-variable "var.zone" {}
-variable "var.region" {}
+variable "zone" {}
+variable "region" {}
+
