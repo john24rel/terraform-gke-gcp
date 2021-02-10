@@ -1,7 +1,7 @@
 provider "google" {
 	version = "2.20"
-  credentials = var.file("~/.google/credentials")
+  credentials = var.credentials
   project     = var.project_id
-	region = "var.region"
-	zone = "var.zone"
+  region = "var.region"
+  zone = "var.zone"
 }
