@@ -1,3 +1,4 @@
+```
 module "eks" {
     source                      = "john24rel/gke/gcp"
     credentials                 =  file("~/.google/credentials")
@@ -9,6 +10,7 @@ module "eks" {
     region                      = "us-central1"
     machine_type                = "e2-medium"
     }
+   ```
     
   
     
