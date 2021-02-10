@@ -4,3 +4,6 @@ variable "initial_node_count" {}
 variable "machine_type" {}
 variable "node_count" {}
 variable "location" {}
+variable "credentials" {}
+variable "var.zone" {}
+variable "var.credentials" {}
